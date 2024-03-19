@@ -620,6 +620,13 @@ banner
   margin-top: 20px;
   margin-bottom: 30px;
 }
+.main-banner h3{
+  font-size: 14px;
+  font-weight: 800;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 
 .main-banner .next-show {
   position: absolute;

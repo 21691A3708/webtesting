@@ -27,7 +27,7 @@
       hour = minute * 60,
       day = hour * 24;
 
-	let countDown = new Date('Mar 31, 2022 09:30:00').getTime(),
+	let countDown = new Date('Mar 28, 2024 09:00:00').getTime(),
     x = setInterval(function() {    
 
       let now = new Date().getTime(),
@@ -39,10 +39,14 @@
         document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
 
       //do something later when date is reached
-      //if (distance < 0) {
-      //  clearInterval(x);
-      //  'IT'S MY BIRTHDAY!;
-      //}
+      if (distance < 0) {
+
+      	clearInterval(x);
+      	document.getElementById('days').innerText = "00",
+        document.getElementById('hours').innerText = "00",
+        document.getElementById('minutes').innerText = "00",
+        document.getElementById('seconds').innerText = "00";
+      }
 
     }, second)
 
