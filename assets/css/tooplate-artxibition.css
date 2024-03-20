@@ -1578,6 +1578,19 @@ Shows Events Page
   font-weight: 800;
   margin-bottom: 15px;
 }
+.page-heading-shows-events h3 {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.page-heading-shows-events h6{
+  font-size: 50px;
+  color: #fff;
+  font-weight: 150;
+  margin-bottom: 15px;
+}
+
 
 .page-heading-shows-events span {
   font-size: 20px;
