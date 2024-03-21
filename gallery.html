@@ -115,29 +115,42 @@
             </div>
         </div>
     </div>
-    <div class="ticket-details-page">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <div class="left-image">
-                        <video controls width="450" height="550" loop poster="assets/images/reel1.png">
-                            <source src="assets/images/reel1.mp4" type="">
-                        </video>
+    <style>
+        .video-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .video {
+            width: 30%;
+            height: 30;
+            margin: 20px 20px;
+        }
+    </style>
 
-
-                        
-                    </div>
+    <div class="gallery_reel">
+        <div class="containerr">
+            <div class="sample">
+                <div class="video-container">
+                <video class="video" controls>
+                    <source src="assets/images/reel1.mp4" type="video/mp4">
+                </video>
+        
+                <video class="video" controls>
+                    <source src="assets/images/reel2.mp4" type="video/mp4">
+                </video>
+  
+                <video class="video" controls>
+                    <source src="assets/images/reel3.mp4" type="video/mp4">
+                </video>
                 </div>
-                <div class="col-lg-4">
-                    <div class="right-content">
-                        
-                    </div>
-                </div>
+            
             </div>
         </div>
     </div>
+    <br>
+    <br>
     <div class="show-events-carousel">
-        <div class="container">
+        <div class="containerr">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="owl-show-events owl-carousel">

@@ -1990,17 +1990,39 @@ Tickets Page
 Ticket Details Page
 -------------------------------
 */
+.gallery_reel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background-color: #101010;
+  border: 13px solid #555;
+  margin: 50px 0px;
+
+}
+.gallery_reel sample{
+  height: 370px;
+  width: 335px;
+  background: #108cff;
+  margin: 60px;
+  text-align: center;
+}
 
 .ticket-details-page {
+
+  border: 13px solid #555;
   margin: 100px 0px;
 }
 
 .ticket-details-page img {
+  border: 10px solid #555;
+
   max-width: 100%;
   overflow: hidden;
 }
 
 .ticket-details-page .right-content {
+
   margin-left: 15px;
 }
 
@@ -2011,6 +2033,7 @@ Ticket Details Page
 }
 
 .ticket-details-page .right-content span {
+  
   font-size: 14px;
   font-weight: 700;
   color: #656c74;
