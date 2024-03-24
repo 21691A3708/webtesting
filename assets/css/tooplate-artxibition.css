@@ -22,6 +22,13 @@ Table of contents
 11. search
 12. portfolio
 
+
+
+
+
+
+
+
 --------------------------------------------- */
 /* 
 ---------------------------------------------
@@ -34,6 +41,116 @@ font & reset css
 reset
 --------------------------------------------- 
 */
+
+
+
+.ticket-details-pagee {
+
+  border: 13px solid #555;
+  margin: 100px 0px;
+}
+
+.ticket-details-pagee img {
+  border: 10px solid #555;
+
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.ticket-details-pagee .right-content {
+
+  margin-left: 15px;
+}
+
+.ticket-details-pagee .right-content h4 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #2a2a2a;
+}
+
+.ticket-details-pagee .right-content span {
+  
+  font-size: 14px;
+  font-weight: 700;
+  color: #656c74;
+  display: inline-block;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  padding-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.ticket-details-pagee .right-content ul {
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.ticket-details-pagee .right-content ul li {
+  font-size: 14px;
+  color: #2a2a2a;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.ticket-details-pagee .right-content ul li i {
+  color: #7c838b;
+  margin-right: 10px;
+  width: 15px;
+  height: 25px;
+  float: left;
+}
+
+.ticket-details-pagee .right-content .quantity-content {
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.ticket-details-pagee .right-content .quantity-content .left-content {
+  float: left;
+  margin-right: 30px;
+}
+
+.ticket-details-pagee .right-content .quantity-content .right-content {
+  text-align: right;
+}
+
+.ticket-details-pagee .right-content .quantity-content .left-content h6 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #2a2a2a;
+}
+
+.ticket-details-pagee .right-content .total h4 {
+  float: left;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.ticket-details-pagee .right-content .total .main-dark-button {
+  text-align: right;
+}
+.ticket-details-pagee .right-content .warn p {
+  margin-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
